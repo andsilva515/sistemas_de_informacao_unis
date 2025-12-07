@@ -1,2 +1,2 @@
-# Sistemas de Informacao - Centro Universitáio do Sul de Minas - UNIS - MG
+# Sistemas de Informação
 Atividades para o curso de Sistemas de Informação Unis MG
