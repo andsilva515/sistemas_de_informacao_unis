@@ -12,3 +12,15 @@ imc_web/
  └─ templates/
      └─ index.html
 
+
+## Rodando a aplicação
+
+```
+
+Dentro da pasta imc_web:
+
+python app.py
+
+Depois acesse no navegador:
+
+http://127.0.0.1:5000/
