@@ -1,0 +1,2 @@
+2)   Instalar a IDE Pycharm Community
+a)   Fazer um print do pyCharm instalado no seu ambiente (About)

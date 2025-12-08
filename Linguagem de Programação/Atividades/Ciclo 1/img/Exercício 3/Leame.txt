@@ -1,0 +1,2 @@
+3)   Executar um simples “Hello World” para cada versão do python
+a)   Fazer um printscreen das telas de saída

@@ -1,0 +1,2 @@
+1)   Executar os passos de preparação do seu ambiente em Python nas versões estáveis 2.* e 3.*
+a)   Fazer dois printscreens de cada um dos seus terminais rodando o prompt do python em cada versão
