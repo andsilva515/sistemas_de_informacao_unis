@@ -4,7 +4,11 @@ Workspace atividade ciclo 4 - Linguagem de Programação
 
 ---
 
+## Estrutura do Projeto
+
+```
 imc_web/
  ├─ app.py
  └─ templates/
      └─ index.html
+
