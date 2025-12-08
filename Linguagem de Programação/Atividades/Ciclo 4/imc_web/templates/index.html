@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cálculo de IMC - Aplicação Web</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1 { margin-bottom: 5px; }
+    .container { max-width: 800px; margin: 0 auto; }
+    label { display: block; margin-top: 10px; }
+    input[type="text"], input[type="number"] {
+      width: 100%; padding: 6px; box-sizing: border-box;
+    }
+    .botoes { margin-top: 15px; }
+    button { padding: 8px 20px; margin-right: 10px; }
+    .mensagem { margin-top: 10px; color: darkblue; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 6px; font-size: 14px; }
+    th { background-color: #eee; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Cálculo do IMC - Índice de Massa Corporal</h1>
+  <hr>
+
+  <form method="post">
+    <label>Nome do Paciente:
+      <input type="text" name="nome" required>
+    </label>
+
+    <label>Endereço Completo:
+      <input type="text" name="endereco">
+    </label>
+
+    <label>Altura (cm):
+      <input type="text" name="altura" required>
+    </label>
+
+    <label>Peso (Kg):
+      <input type="text" name="peso" required>
+    </label>
+
+    <div class="botoes">
+      <button type="submit">Calcular e Salvar</button>
+      <button type="reset">Reiniciar</button>
+    </div>
+  </form>
+
+  {% if mensagem %}
+    <p class="mensagem">{{ mensagem }}</p>
+  {% endif %}
+
+  <h2>Últimos IMCs calculados</h2>
+  {% if registros %}
+    <table>
+      <tr>
+        <th>Data</th>
+        <th>Nome</th>
+        <th>Altura (cm)</th>
+        <th>Peso (kg)</th>
+        <th>IMC</th>
+        <th>Classificação</th>
+      </tr>
+      {% for r in registros %}
+      <tr>
+        <td>{{ r.data_calculo.strftime('%d/%m/%Y %H:%M') }}</td>
+        <td>{{ r.nome }}</td>
+        <td>{{ "%.1f"|format(r.altura_cm) }}</td>
+        <td>{{ "%.1f"|format(r.peso_kg) }}</td>
+        <td>{{ "%.2f"|format(r.imc) }}</td>
+        <td>{{ r.classificacao }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  {% else %}
+    <p>Nenhum cálculo registrado ainda.</p>
+  {% endif %}
+</div>
+</body>
+</html>
