@@ -30,3 +30,17 @@ imc_web/
  ├─ app.py                # Backend Flask + Lógica de IMC + Conexão PostgreSQL
  └─ templates/
      └─ index.html        # Interface Web (HTML)
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- Python 3
+- Flask – Framework web
+- Flask SQLAlchemy – ORM
+- PostgreSQL – Banco de dados
+- pgAdmin – Administração do banco
+
+---
+
+
