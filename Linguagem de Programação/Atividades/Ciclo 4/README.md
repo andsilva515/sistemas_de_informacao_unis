@@ -1,6 +1,8 @@
 # Atividade - Ciclo 4 - Python + Banco de Dados
 
-Workspace atividade ciclo 4 - Linguagem de Programação
+Este projeto faz parte da atividade do **Ciclo 4 da disciplina de Linguagem de Programação**. 
+
+O objetivo é criar uma aplicação **web** em Python para calcular **IMC (Índice de Massa Corporal)** e **armazenar os resultados em um banco de dados PostgreSQL**.
 
 ---
 
@@ -45,4 +47,6 @@ Depois acesse no navegador:
 ```bash
 http://127.0.0.1:5000
 ```
-
+## Observações
+- A aplicação cria automaticamente a tabela no banco ao iniciar.
+- Os cálculos realizados ficam registrados e podem ser listados na interface.
