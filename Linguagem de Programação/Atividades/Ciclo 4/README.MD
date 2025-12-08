@@ -1,8 +1,25 @@
-# 🧮 Atividade - Ciclo 4  
-## Python + Banco de Dados (Flask + PostgreSQL)
+# 🧮 IMC Web – Flask + PostgreSQL  
+### Atividade – Ciclo 4 | Linguagem de Programação
 
-Este projeto faz parte da atividade do **Ciclo 4 da disciplina de Linguagem de Programação**.  
-O objetivo é criar uma aplicação **web** em Python para calcular **IMC (Índice de Massa Corporal)** e **armazenar os resultados em um banco de dados PostgreSQL**.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black?logo=flask)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+
+Aplicação web desenvolvida em **Python (Flask)** para cálculo de **IMC – Índice de Massa Corporal**, com **armazenamento dos resultados em um banco PostgreSQL**.
+
+Este projeto integra a atividade do **Ciclo 4 da disciplina de Linguagem de Programação**.
+
+---
+
+## 📚 Sumário
+
+- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
+- [🛠 Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [🗄 Configuração do Banco de Dados](#-configuração-do-banco-de-dados)
+- [▶️ Como Executar a Aplicação](#️-como-executar-a-aplicação)
+- [📌 Observações Importantes](#-observações-importantes)
+- [👨‍💻 Autor](#-autor)
 
 ---
 
@@ -10,59 +27,6 @@ O objetivo é criar uma aplicação **web** em Python para calcular **IMC (Índi
 
 ```text
 imc_web/
- ├─ app.py                # Backend Flask + Conexão com PostgreSQL
+ ├─ app.py                # Backend Flask + Lógica de IMC + Conexão PostgreSQL
  └─ templates/
-     └─ index.html        # Interface web (HTML)
-
-🛠 Tecnologias Utilizadas
-
-Python 3
-
-Flask (Framework Web)
-
-Flask SQLAlchemy (ORM)
-
-PostgreSQL (Banco de Dados)
-
-pgAdmin (Administração do banco)
-
-🗄 Configuração do Banco de Dados
-
-Passos para Testar a Aplicação
-
-Instale as dependências
-Dentro da pasta do projeto, execute:
-
-pip install flask flask_sqlalchemy psycopg2-binary
-
-
-Crie o banco de dados no PostgreSQL
-No pgAdmin ou pelo terminal:
-
-CREATE DATABASE imcdb;
-
-
-Configure a conexão no arquivo app.py
-Ajuste a linha:
-
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://usuario:senha@localhost/imcdb"
-
-
-Execute a aplicação
-Entre na pasta imc_web:
-
-python app.py
-
-
-Abra o navegador e acesse:
-
-http://127.0.0.1:5000/
-
-
-Use a interface para calcular IMC
-
-Digite nome, altura (cm) e peso (kg)
-
-Clique em Calcular
-
-O resultado será salvo no banco
+     └─ index.html        # Interface Web (HTML)
