@@ -12,14 +12,14 @@ Este projeto integra a atividade do **Ciclo 4 da disciplina de Linguagem de Prog
 
 ---
 
-## 📚 Sumário
+## 📚 Índice
 
-- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
-- [🛠 Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [🗄 Configuração do Banco de Dados](#-configuração-do-banco-de-dados)
-- [▶️ Como Executar a Aplicação](#️-como-executar-a-aplicação)
-- [📌 Observações Importantes](#-observações-importantes)
-- [👨‍💻 Autor](#-autor)
+1.[📁 Estrutura do Projeto](#-estrutura-do-projeto)
+2. [🛠 Tecnologias Utilizadas](#-tecnologias-utilizadas)
+3. [🗄 Configuração do Banco de Dados](#-configuração-do-banco-de-dados)
+4. [▶️ Como Executar a Aplicação](#️-como-executar-a-aplicação)
+5. [📌 Observações Importantes](#-observações-importantes)
+6. [👨‍💻 Autor](#-autor)
 
 ---
 
@@ -40,6 +40,15 @@ imc_web/
 - Flask SQLAlchemy – ORM
 - PostgreSQL – Banco de dados
 - pgAdmin – Administração do banco
+
+---
+## 🗄 Configuração do Banco de Dados
+
+---
+## ▶️ Como Executar a Aplicação
+
+---
+## 📌 Observações Importantes
 
 ---
 
