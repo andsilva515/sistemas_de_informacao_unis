@@ -12,6 +12,7 @@ imc_web/
  └─ templates/
      └─ index.html
 
+---
 
 ## Rodando a aplicação
 
