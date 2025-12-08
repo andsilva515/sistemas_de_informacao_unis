@@ -15,8 +15,6 @@ imc_web/
 
 ## Rodando a aplicação
 
-```
-
 Dentro da pasta imc_web:
 
 python app.py
