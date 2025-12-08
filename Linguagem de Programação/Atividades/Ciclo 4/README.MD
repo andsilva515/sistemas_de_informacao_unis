@@ -8,7 +8,7 @@ Workspace atividade ciclo 4 - Linguagem de Programação
 
 ```
 imc_web/
- ├─ app.py
+ ├─ app.py ← conexão com o PostgreSQL
  └─ templates/
      └─ index.html
 
